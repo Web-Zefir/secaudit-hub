@@ -1,0 +1,15 @@
+bin/
+dist/
+node_modules/
+.DS_Store
+.env
+.env.local
+*.log
+coverage.out
+backend/bin/
+frontend/dist/
+tmp/
+*.exe
+.idea/
+.vscode/*
+!.vscode/settings.json
