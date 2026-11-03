@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "go.useLanguageServer": true,
+  "go.lintTool": "golangci-lint",
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "js/ts.tsdk.path": "node_modules/typescript/lib"
+}
