@@ -1,0 +1,38 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.primary {
+  background: #d7dbe6;
+  color: #11131a;
+  border-color: #d7dbe6;
+}
+
+.ghost {
+  background: transparent;
+}
+
+.danger {
+  color: var(--critical);
+  border-color: rgba(255, 77, 79, 0.4);
+  background: var(--critical-bg);
+}
+
+.wide {
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  gap: 4px;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+}
+
+.trigger {
+  flex: 1;
+  height: 28px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+}
+
+.trigger[data-state="active"] {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.panel {
+  padding-top: 12px;
+}

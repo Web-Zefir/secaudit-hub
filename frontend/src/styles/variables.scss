@@ -1,0 +1,35 @@
+$bg: #090a0f;
+$surface: #11131a;
+$surface-2: #171a24;
+$border: #232736;
+$text: #e6e8ee;
+$muted: #9aa3b5;
+$faint: #6b7385;
+$critical: #ff4d4f;
+$high: #ff7a45;
+$medium: #fadb14;
+$low: #4096ff;
+$ok: #3ddc97;
+
+:root {
+  --bg: #{$bg};
+  --surface: #{$surface};
+  --surface-2: #{$surface-2};
+  --border: #{$border};
+  --text: #{$text};
+  --muted: #{$muted};
+  --faint: #{$faint};
+  --critical: #{$critical};
+  --critical-bg: rgba(255, 77, 79, 0.12);
+  --high: #{$high};
+  --high-bg: rgba(255, 122, 69, 0.12);
+  --medium: #{$medium};
+  --medium-bg: rgba(250, 219, 20, 0.12);
+  --low: #{$low};
+  --low-bg: rgba(64, 150, 255, 0.12);
+  --ok: #{$ok};
+  --ok-bg: rgba(61, 220, 151, 0.12);
+  --font: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  --radius: 6px;
+}

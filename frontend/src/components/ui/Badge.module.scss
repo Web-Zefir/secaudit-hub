@@ -1,0 +1,48 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+.CRITICAL {
+  color: var(--critical);
+  background: var(--critical-bg);
+  border-color: rgba(255, 77, 79, 0.35);
+}
+
+.HIGH {
+  color: var(--high);
+  background: var(--high-bg);
+  border-color: rgba(255, 122, 69, 0.35);
+}
+
+.MEDIUM {
+  color: var(--medium);
+  background: var(--medium-bg);
+  border-color: rgba(250, 219, 20, 0.35);
+}
+
+.LOW {
+  color: var(--low);
+  background: var(--low-bg);
+  border-color: rgba(64, 150, 255, 0.35);
+}
+
+.neutral {
+  color: var(--muted);
+  background: var(--surface-2);
+  border-color: var(--border);
+}
+
+.roadmap {
+  color: var(--faint);
+  background: transparent;
+  border-color: var(--border);
+}
